@@ -99,12 +99,34 @@ a {
 
 
 
-.research-body, .talks-body, .conf-body {
+.research-body, .talks-body, .conf-body, .teaching-body {
 	margin: 5%;
+	margin-top: 0px;
 }
 
 
+.title-box {
+	justify-items: center;
+	display: grid;
+	margin: 3%;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 24pt;
+}
 
+
+.title {
+	display: grid;
+	text-justify: center;
+	justify-content: center;
+	font-size: 24pt;
+}
+
+.sub-title {
+	text-justify: center;
+	justify-content: center;
+	font-size: 18pt;
+}
 
 
 /*begin display options*/
@@ -185,6 +207,17 @@ a {
 
 @media (max-width: 550px) {
 
+	.nav-list {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	text-align: center;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 2pt;
+	background-color: darkgray;
+}
+
 	.extended-about-grid {
 		margin: 3%;
 		padding: 0px;
@@ -217,6 +250,8 @@ a {
 
 
 @media (max-width: 375px) {
+
+
 
 	.extended-about-grid {
 		margin: 3%;
