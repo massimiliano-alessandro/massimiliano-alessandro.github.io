@@ -282,6 +282,21 @@ a {
 	justify-self: start;
 }
 }
+
+.topologie {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 40% 20% 40%;
+	margin: 0px;
+}
+
+.section-topologie	{
+	text-justify: center;
+	margin-bottom: 0%;
+	padding: 3%;
+
+}
+
 /* end display options*/
 
 
