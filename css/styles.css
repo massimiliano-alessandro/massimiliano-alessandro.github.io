@@ -297,6 +297,10 @@ a {
 
 }
 
+.section-topologie-list {
+	list-style-type: none;
+	margin: 3%;
+}
 /* end display options*/
 
 
