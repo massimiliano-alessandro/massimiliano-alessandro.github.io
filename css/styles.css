@@ -131,7 +131,7 @@ a {
 .topologie {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	grid-template-rows: 40% 20% 40%;
+	grid-template-rows: 50% 20% 30%;
 	margin: 0px;
 }
 
@@ -224,7 +224,7 @@ a {
 	.topologie {
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: 20% 40% 10% 10% 20%;
+	grid-template-rows: 21% 33% 12% 11% 23%;
 	margin: 0px;
 }
 
@@ -310,7 +310,6 @@ a {
 
 
 /* end display options*/
-
 
 
 
