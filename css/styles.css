@@ -224,7 +224,7 @@ a {
 	.topologie {
 	display: grid;
 	grid-template-columns: 100%;
-	grid-template-rows: 20% 30% 10% 10% 30%;
+	grid-template-rows: 20% 40% 10% 10% 20%;
 	margin: 0px;
 }
 
